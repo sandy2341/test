@@ -1,7 +1,9 @@
-firstpy=input("Are you a Human?")
-if firstpy=="yes":
+human=input("Are you a Human?")
+if human=="yes":
    print("Yes,I am a Human!")
    print("yes")
    print("I am")
 else:
-    print("No I am a Robot!")
+    thirsty=input("Are u thirsty?")
+    if thirsty=="yes":
+       print("drink water")
